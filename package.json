@@ -1,0 +1,33 @@
+{
+  "name": "cli-starter",
+  "version": "0.0.0",
+  "description": "CLI starter kit",
+  "bin": "cli.js",
+  "main": "index.js",
+  "repository": "https://github.com/jamiebuilds/cli-starter",
+  "author": "Jamie Kyle <me@thejameskyle.com>",
+  "license": "MIT",
+  "keywords": [
+    "cli",
+    "meow",
+    "starter",
+    "kit",
+    "boilerplate"
+  ],
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "fixturez": "^1.1.0",
+    "flow-bin": "^0.71.0"
+  },
+  "dependencies": {
+    "meow": "^5.0.0",
+    "spawndamnit": "^2.0.0"
+  }
+}
